@@ -1,6 +1,5 @@
 <?php namespace App\Controllers;
-
-class page extends  BaseController
+class page extends BaseController
 {
     public function about()
     {
@@ -14,11 +13,7 @@ class page extends  BaseController
     {
         echo "faqs page";
     }
-    public function tos()
-    {
-        echo "Halaman Term of Service";
-    }
-    public function  biodata()
+    public function Biodata()
     {
         echo "nama : muhammad fahmilhaq";
         echo "<br>Alamat : mojowarno jombang<br>";
